@@ -1,0 +1,9 @@
+ชื่อ
+grep -oEi '^(thanapat)+' email.txt
+
+อีเมล
+grep -oE '\b(6452300814)@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b' email.txt
+
+รหัสนักศึกษา
+grep -oE '(6452300814)' email.txt
+
